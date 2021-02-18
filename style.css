@@ -109,7 +109,7 @@ section.card-container {
 }
 .card-one {
   height: 500px;
-  background-color: #ffe697;
+  background-color: #ffd700;
 }
 .btn-base {
   display: flex;
@@ -124,7 +124,7 @@ section.card-container {
   color: white;
 }
 .btn-one {
-  background-color: #ff8a8a;
+  background-color: #d1b000;
 }
 .card-two {
   height: 500px;
@@ -144,7 +144,7 @@ section.card-container {
 }
 .card-three {
   height: 500px;
-  background-color: #b7e0ff;
+  background-color: #d9ebf4;
 }
 .img-three {
   width: 350px;
@@ -156,12 +156,12 @@ section.card-container {
   background-position-x: 30%;
 }
 .btn-three {
-  background-color: #31a2fa;
+  background-color: #cbe3f0;
 }
 
 .content {
   padding: 15px 35px;
-  font-size: 1rem;
+  font-size: 16px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -199,8 +199,10 @@ footer {
     box-shadow: 2px 12px 32px rgba(0, 0, 0, 0.5);
     cursor: pointer;
   }
-  body {
-    font-size: 10px;
+
+  body,
+  html {
+    font-size: 12px;
   }
 
   nav {
@@ -209,7 +211,7 @@ footer {
     background-color: #8b9e95;
     color: #fff;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 100px);
+    grid-template-rows: repeat(3, 80px);
     grid-template-areas: "logo logo logo logo" "header header header header" " menu menu menu menu";
   }
 }
